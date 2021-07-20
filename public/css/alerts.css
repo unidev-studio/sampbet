@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Lora|Merriweather|Montserrat|Noto+Sans|Noto+Serif|Open+Sans|Oswald|PT+Sans|Playfair+Display|Roboto|Source+Sans+Pro|Ubuntu');
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.wrapper {
+    margin-top: 10%;
+}
+
+.alert {
+    transition-property: opacity;
+    transition-duration: 0.2s,0.2s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.2s,0.2s;
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 0.2s,0.2s;
+    opacity: 1;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+    width: 50%;
+}
+
+.alert-image {
+    text-align: center;
+}
+
+.alert-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: gray;
+}
+
+.alert-message {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: green;
+}
+
+.shadow {
+    text-shadow: 1px 2px 0 #7A7A7A;
+}

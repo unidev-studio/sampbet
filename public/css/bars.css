@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Lora|Merriweather|Montserrat|Noto+Sans|Noto+Serif|Open+Sans|Oswald|PT+Sans|Playfair+Display|Roboto|Source+Sans+Pro|Ubuntu');
+
+h3 {
+    text-align: center;
+    margin: 0.2em;
+    padding: 0;
+}
+
+.progress {
+    position:relative;
+    width: 100%;
+}
+
+.progress .inside {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* UI OTHER SETS */
+
+.ui-widget.ui-widget-content {
+    border: 3px solid #d2d2d2!important;
+    background: #fff!important;
+    color: #333!important;
+}
