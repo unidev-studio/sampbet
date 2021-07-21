@@ -16,7 +16,7 @@
     {{ $errors->first('h_date_end') }}
     {{ session('system') }}
     <div class="target_new" style="display: none;">
-        <link rel="stylesheet" href="https://tellarion.express/css/datepicker.css"/>
+        <link rel="stylesheet" href="/css/datepicker.css"/>
         <form method="post" action="/bars/0" enctype="multipart/form-data">
             <fieldset>
                 <label>Заголовок целевого сбора</label>
@@ -37,7 +37,7 @@
         {!! $bars !!}
     </div>
     
-    <script src="https://tellarion.express/js/datepicker.min.js"></script>
+    <script src="/js/datepicker.min.js"></script>
     <script>
         
         $('#calendar').datepicker({

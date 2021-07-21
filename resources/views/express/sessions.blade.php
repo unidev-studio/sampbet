@@ -46,7 +46,7 @@
                     <p>Загрузка_2...</p>
                 </div>
                 @else
-                <p>Необходима <a href="https://samp-bet.ru/panel">авторизация</a></p>
+                <p>Необходима <a href="/panel">авторизация</a></p>
                 @endif
             </div>
         </div>

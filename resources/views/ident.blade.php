@@ -4,17 +4,17 @@
         <meta charset="utf-8" />
         <meta name="csrf-token" content="{{ csrf_token() }}" />
         <title>SAMP-BET — Процесс</title>
-        <link rel="icon" href="https://samp-bet.ru/favicon.ico?2" type="image/x-icon" />
-        <link rel="stylesheet" href="https://samp-bet.ru/css/milligram.min.css" />
-        <link rel="stylesheet" href="https://samp-bet.ru/css/faall.min.css">
-        <link rel="stylesheet" href="https://samp-bet.ru/css/style.css?47" />
-        <script src="https://samp-bet.ru/js/jquery-3.3.1.min.js"></script>
-        <script src="https://samp-bet.ru/js/header.js"></script>
+        <link rel="icon" href="/favicon.ico?2" type="image/x-icon" />
+        <link rel="stylesheet" href="/css/milligram.min.css" />
+        <link rel="stylesheet" href="/css/faall.min.css">
+        <link rel="stylesheet" href="/css/style.css?47" />
+        <script src="/js/jquery-3.3.1.min.js"></script>
+        <script src="/js/header.js"></script>
     </head>
     <body>
         <main class="wrapper">
             <nav class="navigation container">
-                <h1 class="logo"><a href="https://samp-bet.ru/">SAMP-BET</a></h1>
+                <h1 class="logo"><a href="/">SAMP-BET</a></h1>
                 <div class="navbar">
                     @if($auth == 0)
                     <ul>
@@ -25,7 +25,7 @@
                     </ul>
                     @else
                     <div class="billing">
-                            [ <a href="https://samp-bet.ru/panel">{{ $person[0] }}</a> ] <span class="ml-2">&nbsp Баланс: {{ $person[1] }} Р. <a href="/exit"><i class="fas fa-door-open"></i></a></span>
+                            [ <a href="/panel">{{ $person[0] }}</a> ] <span class="ml-2">&nbsp Баланс: {{ $person[1] }} Р. <a href="/exit"><i class="fas fa-door-open"></i></a></span>
                     </div>
                     @endif
                 </div>

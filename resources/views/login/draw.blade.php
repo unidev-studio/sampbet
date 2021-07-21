@@ -17,7 +17,7 @@
         </fieldset>
     </form>
 
-    <script src="https://samp-bet.ru/js/sha256.min.js"></script>
-    <script src="https://samp-bet.ru/js/interkassa_dev.js?5"></script>
+    <script src="/js/sha256.min.js"></script>
+    <script src="/js/interkassa_dev.js?5"></script>
 </section>
 @endsection

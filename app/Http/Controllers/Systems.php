@@ -212,7 +212,7 @@ class Systems extends BaseController
                         $mail->WordWrap = 50;
                         $mail->isHTML(true);
                         $mail->Subject = 'Регистрация «SAMP-BE?»';
-                        $mail->Body    = 'Приветствуем тебя, '.$userdata['email'].'. Для подтверждения регистрации на сайте «SAMP-BE?»<br>Перейдите по ссылке: https://samp-bet.ru/register/verif/'.$keydash.'';
+                        $mail->Body    = 'Приветствуем тебя, '.$userdata['email'].'. Для подтверждения регистрации на сайте «SAMP-BE?»<br>Перейдите по ссылке: /register/verif/'.$keydash.'';
                         if(!$mail->send()) {
                             Log::debug('Message could not be sent.'.$mail->ErrorInfo);
                             Log::debug('Mailer Error: ' . $mail->ErrorInfo);

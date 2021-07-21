@@ -19,11 +19,11 @@
         <meta charset="utf-8" />
         <meta name="csrf-token" content="{{ csrf_token() }}" />
         <title>Alerts - Tellarion Express</title>
-        <link rel="stylesheet" href="https://tellarion.express/css/milligram.min.css" />
-        <link rel="stylesheet" href="https://tellarion.express/css/faall.min.css">
-        <link rel="stylesheet" href="https://tellarion.express/css/alerts.css" />
-        <link rel="stylesheet" href="https://tellarion.express/css/animate.css" />
-        <script src="https://tellarion.express/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="/css/milligram.min.css" />
+        <link rel="stylesheet" href="/css/faall.min.css">
+        <link rel="stylesheet" href="/css/alerts.css" />
+        <link rel="stylesheet" href="/css/animate.css" />
+        <script src="/js/jquery-3.3.1.min.js"></script>
     </head>
     <body>
         <main class="wrapper">

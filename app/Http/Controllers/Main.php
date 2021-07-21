@@ -257,7 +257,7 @@ tellarion;
             $email = session()->get('email');
             $get_user = $this->sysdb->table('accounts')->where('email', $email)->get();
             $get_alert = $this->sysdb->table('alerts')->where('email', $email)->get();
-            $generate_url = "https://tellarion.express/alerts/{$get_user[0]->keydash}";
+            $generate_url = "/alerts/{$get_user[0]->keydash}";
             $status_rope_youtube = $get_user[0]->rope_youtube;
             $status_rope_twitch = $get_user[0]->rope_twitch;
             $rope = 0;

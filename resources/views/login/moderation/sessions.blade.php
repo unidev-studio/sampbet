@@ -11,7 +11,7 @@
 
     <h3 style="margin-top: 20px;" id="action_session">Создание сессии</h3>
 
-    <link rel="stylesheet" href="https://samp-bet.ru/css/datepicker.css"/>
+    <link rel="stylesheet" href="/css/datepicker.css"/>
     <fieldset>
         <label>Категория</label>
         <select id="sel_category">
@@ -35,7 +35,7 @@
     </fieldset>
 
     <script src="https://cdn.tiny.cloud/1/ydzgua76avstjc1p3w1sb2e7k5xsmyzfcq0r35d1fbp6ckbn/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-    <script src="https://samp-bet.ru/js/datepicker.min.js"></script>
+    <script src="/js/datepicker.min.js"></script>
 
     <script>
 

@@ -19,13 +19,13 @@
         <meta charset="utf-8" />
         <meta name="csrf-token" content="{{ csrf_token() }}" />
         <title>Bars - Tellarion Express</title>
-        <link rel="stylesheet" href="https://tellarion.express/css/milligram.min.css" />
-        <link rel="stylesheet" href="https://tellarion.express/css/faall.min.css">
-        <link rel="stylesheet" href="https://tellarion.express/css/bars.css" />
-        <link rel="stylesheet" href="https://tellarion.express/css/animate.css" />
-        <link rel="stylesheet" href="https://tellarion.express/css/jquery-ui.min.css" />
-        <script src="https://tellarion.express/js/jquery-3.3.1.min.js"></script>
-        <script src="https://tellarion.express/js/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="/css/milligram.min.css" />
+        <link rel="stylesheet" href="/css/faall.min.css">
+        <link rel="stylesheet" href="/css/bars.css" />
+        <link rel="stylesheet" href="/css/animate.css" />
+        <link rel="stylesheet" href="/css/jquery-ui.min.css" />
+        <script src="/js/jquery-3.3.1.min.js"></script>
+        <script src="/js/jquery-ui.min.js"></script>
     </head>
     <body>
         <style>

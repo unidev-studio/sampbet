@@ -101,7 +101,7 @@
                                                                     date_one = data.callback[i].date_start;
                                                                     date_two = data.callback[i].date_end;
                                                                     let format = get_date_end(sessions[i]);
-                                                                    generate_tpl += `<li data-session-id="${data.callback[i].id}"><span class="info"><a href="https://samp-bet.ru/sessions/${data.callback[i].id}">[#${data.callback[i].id}] ${data.callback[i].name} [${status}] <br> [Конец: ${date_two}] <br> [ До конца осталось: <span id="timer_${data.callback[i].id}">${format}</span> ]</a></span></li>`;
+                                                                    generate_tpl += `<li data-session-id="${data.callback[i].id}"><span class="info"><a href="/sessions/${data.callback[i].id}">[#${data.callback[i].id}] ${data.callback[i].name} [${status}] <br> [Конец: ${date_two}] <br> [ До конца осталось: <span id="timer_${data.callback[i].id}">${format}</span> ]</a></span></li>`;
                                                                     timers[i] = setInterval(function() {
                                                                         let format = get_date_end(sessions[i]);
                                                                         $('#timer_' + sessions[i].id).html(format);
